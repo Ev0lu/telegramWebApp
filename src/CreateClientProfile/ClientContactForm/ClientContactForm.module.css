@@ -1,0 +1,180 @@
+.contact_form{
+  height: 87%;
+  background-color: #232323;
+  }
+  
+.contact_form_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 40px;
+    
+  }
+  
+.contact_form_text{
+    color: black;
+    font-size: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.contact_form_btn{
+    border: none;
+    outline: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+    color: white;
+    background-color: #B7AA8C;
+    padding: 15px 0px;
+    width: 320px;
+    border-radius: 25px;
+    transition: background-color 0.2s ease;
+  }
+
+.contact_form_btn:active{
+  
+    background-color: #D3C5A7;
+    color: white;
+  }
+  
+.contact_form_btn:hover{
+    background-color: #B7AA8C;
+    color: white;
+  }
+
+.gender_title{
+  color: white;
+}
+
+.gender{
+  margin-right: 10px;
+}
+
+.radio_gender {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 315px; 
+  margin: 0 auto; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+label {
+  font-size: 14px; 
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  vertical-align: middle; 
+  width: 20px;
+  height: 20px; 
+  border-radius: 50%; 
+  background-color: #ccc; 
+  filter: grayscale(1);
+}
+
+input[type='radio']:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  top: 15%;
+  left: 15%;
+  position: relative;
+  background-color: white;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  top: 15%; 
+  left: 15%;
+  position: relative;
+  background-color: #141413;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+p {
+  margin-top: 40px;
+}
+
+
+.contact_form_header{
+  display: flex;
+  width: 315px;
+
+
+}
+.contact_form_header_arrow{
+  margin-right: 50px;
+  margin-top: 3px;
+}
+
+
+
+.contact_form_btn.lightMode:hover {
+  color: white;
+  background-color: #B7AA8C;
+}
+
+.contact_form_btn.darkMode:hover {
+  color: white;
+  background-color: #B7AA8C;
+}
+
+
+.contact_form_btn.lightMode:active {
+  color: white;
+  background-color: #D3C5A7;
+}
+
+.contact_form_btn.darkMode:active {
+  color: white;
+  background-color: #D3C5A7;
+}
+
+.contact_form_btn.darkMode {
+  color: white;
+  background-color: #232323;
+}
+
+.contact_form_btn.lightMode {
+  color: black;
+  background-color: white;
+}
+
+.contact_input{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.infoField{
+  width: 316px;
+  padding: 10px 25px 11px 20px;
+  border: 1px solid #A3A3A3;
+  border-radius: 5px;
+  background-color: #373737;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.error {
+  border: 1px solid #FF0000;
+}
+
+.error_message {
+  color: #FF0000;
+  font-size: 12px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}

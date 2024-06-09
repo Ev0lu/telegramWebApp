@@ -1,0 +1,174 @@
+.personalInfo{
+
+  background-color: hsl(0, 0%, 14%);
+  height: 87%;
+  }
+  
+.personalInfo_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 40px;
+    
+  }
+  
+
+
+.personalInfo_text{
+    color: black;
+    font-size: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.personalInfo_btn{
+    border: none;
+    outline: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    color: black;
+    background-color: #B7AA8C;
+    color: white;
+    padding: 15px 0px;
+    width: 320px;
+    border-radius: 25px;
+    transition: background-color 0.2s ease;
+  }
+
+.personalInfo_btn:active{
+    background-color: #D3C5A7;
+    color: white;
+  
+  }
+  
+.personalInfo_btn:hover{
+    background-color: #B7AA8C;
+    color: white;
+  }
+
+.infoField{
+    position: relative;
+    width: 316px;
+    padding: 10px 25px 11px 20px;
+    border: 1px solid #A3A3A3;
+    border-radius: 5px;
+    color: #C7C7C7;
+    background-color: #373737;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+.nameField{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+.lastNameField{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+.middleNameField{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+.gender_title{
+  color: white;
+}
+.gender{
+  margin-right: 10px;
+}
+.radio_gender {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 315px; 
+  margin: 0 auto; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+label {
+  font-size: 14px; 
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  vertical-align: middle; 
+  width: 20px;
+  height: 20px; 
+  border-radius: 50%; 
+  background-color: #ccc; 
+  filter: grayscale(1);
+}
+
+input[type='radio']:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  top: 15%;
+  left: 15%;
+  position: relative;
+  background-color: white;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  top: 15%; 
+  left: 15%;
+  position: relative;
+  background-color: #141413;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+
+p {
+  margin-top: 40px;
+}
+
+
+.personalInfoHeader{
+  display: flex;
+  width: 315px;
+
+
+}
+.personalInfo_arrow{
+  margin-right: 50px;
+  margin-top: 3px;
+}
+
+
+.personalInfo_btn.darkMode {
+  color: white;
+  background-color: #232323;
+}
+.personalInfo_btn.lightMode {
+  color: black;
+  background-color: white;
+}
+
+.error {
+  border: 1px solid #FF0000;
+}
+
+.error_message {
+  color: #FF0000;
+  font-size: 12px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}

@@ -1,0 +1,82 @@
+.greetings{
+  height: 87%;
+}
+
+
+.greetings_wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 40px;
+  
+  
+}
+
+.greetings_text{
+  color: black;
+  font-size: 28px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  .greetings_btn{
+    border: none;
+    outline: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    padding: 15px 0px;
+    width: 320px;
+    border-radius: 25px;
+    transition: background-color 0.2s ease;
+  }
+  .greetings_btn:active{
+    background-color: #D3C5A7;
+    color: white;
+  }
+  
+  .greetings_btn:hover{
+    background-color: #B7AA8C;
+    color: white;
+  }
+
+
+.greetings_btn.lightMode1{
+  background-color: #B7AA8C;
+  color: white;
+}
+
+.greetings_btn.darkMode1{
+  background-color: #B7AA8C;
+  color: white;
+}
+
+/* Hover стили */
+.greetings_btn.lightMode:hover {
+    color: white;
+    background-color: #B7AA8C;
+}
+
+.greetings_btn.darkMode:hover {
+    color: white;
+    background-color: #B7AA8C;
+}
+
+.greetings_btn.lightMode:active {
+  color: white;
+  background-color: #D3C5A7;
+}
+
+.greetings_btn.darkMode {
+  color: white;
+  background-color: #232323;
+}
+.greetings_btn.lightMode {
+  color: black;
+  background-color: white;
+}
+
+.greetings_btn.darkMode:active {
+  color: white;
+  background-color: #D3C5A7;
+}

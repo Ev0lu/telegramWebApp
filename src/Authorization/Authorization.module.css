@@ -1,0 +1,127 @@
+.authorization{
+  height: 87%;
+}
+
+
+.authorization_wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 40px;
+  
+}
+
+
+
+.authorization_text{
+  color: black;
+  font-size: 28px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+
+
+  .password_input{
+    position: relative;
+  }
+  .password_field{
+ 
+    width: 316px;
+    padding: 10px 25px 11px 20px;
+    border: 1px solid #A3A3A3;
+    border-radius: 5px;
+    
+    background-color: #373737;
+    outline: none;
+    
+  
+    box-sizing: border-box;
+
+  }
+  .toggle_password {
+    position: absolute;
+
+    right: 10px;
+    top: 7px;
+    cursor: pointer;
+}
+
+  .toggle_password svg {
+    fill: #666;
+    width: 100%; /* Заполнение всей ширины контейнера */
+    height: 100%; /* Заполнение всей высоты контейнера */
+}
+.authorization_btn2{
+  border: none;
+  outline: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  z-index: 1;
+  color: black;
+  padding: 15px 0px;
+  width: 320px;
+  border-radius: 25px;
+  transition: background-color 0.2s ease;
+}
+.authorization_btn2:active{
+
+  background-color: #D3C5A7;
+  color: white;
+
+}
+
+.authorization_btn2:hover{
+  background-color: #B7AA8C;
+  color: white;
+}
+
+
+.authorization_btn2.authPassword1 {
+  background-color: #B7AA8C;
+  color: white;
+}
+
+.authorization_btn2.authPassword1:active{
+
+  background-color: #D3C5A7;
+  color: white;
+
+}
+
+.error {
+  border: 1px solid #FF0000;
+}
+
+.error_message {
+  color: #FF0000;
+  font-size: 12px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.password_input{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+ position: relative;
+}
+
+
+.spanForgot{
+  font-size: 12px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  text-decoration:none;
+
+  position: absolute;
+  
+}
+a{
+  text-decoration:none;
+
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-webkit-contacts-auto-fill-button,
+input[type="password"]::-webkit-reveal-password-button,
+input[type="password"]::-webkit-clear-button {
+    display: none;
+}

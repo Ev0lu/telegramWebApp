@@ -1,0 +1,116 @@
+.authorization_header{
+  display: flex;
+  width: 315px;
+  align-items: center;
+  text-align: center;
+  }
+
+.authorization {
+  height: 87%;
+}
+
+.authorization_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 40px;
+}
+
+.authorization_text {
+  color: #333; /* Dark gray text */
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.verification_text {
+  color: #666; /* Dark gray text */
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.code_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.code_box {
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  height: 60px;
+  padding: 10px;
+  color: #333; /* Dark gray text */
+  background-color: #fff; /* White background */
+}
+
+.code_box:focus {
+  border: 1px solid #ccc;
+
+}
+
+.error_message {
+  color: #FF0000;
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.authorization_btn {
+  border: none;
+  outline: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  z-index: 1;
+  color: #333; /* Dark gray text */
+  padding: 15px 0px;
+  width: 320px;
+  border-radius: 25px;
+  transition: background-color 0.2s ease;
+}
+
+.authorization_btn:hover {
+  background-color: #B7AA8C;
+  color: #fff; /* White text */
+}
+
+.authorization_btn:active {
+  background-color: #D3C5A7;
+  color: #fff; /* White text */
+}
+
+.authorization_btn.lightMode:hover {
+  color: white;
+  background-color: #B7AA8C;
+}
+
+.authorization_btn.darkMode:hover {
+  color: white;
+  background-color: #B7AA8C;
+}
+
+.authorization_btn.lightMode:active {
+color: white;
+background-color: #D3C5A7;
+}
+
+.authorization_btn.darkMode {
+color: white;
+background-color: #232323;
+}
+.authorization_btn.lightMode {
+color: black;
+background-color: white;
+}
+
+.authorization_btn.darkMode:active {
+color: white;
+background-color: #D3C5A7;
+}

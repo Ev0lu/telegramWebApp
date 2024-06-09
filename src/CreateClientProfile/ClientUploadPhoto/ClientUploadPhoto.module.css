@@ -1,0 +1,165 @@
+
+.avatarForm{
+  height: 87%;
+    background-color: #232323;
+  
+  }
+  
+  .avatarForm_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 40px;
+    
+  }
+  
+  .avatarForm_text{
+    color: black;
+    font-size: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .avatarForm_btn{
+    border: none;
+    outline: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+    color: black;
+    padding: 15px 0px;
+    width: 320px;
+    border-radius: 25px;
+    transition: background-color 0.2s ease;
+  }
+  .avatarForm_btn:active{
+  
+    background-color: #D3C5A7;
+    color: white;
+  
+  }
+  
+  .avatarForm_btn:hover{
+    background-color: #B7AA8C;
+    color: white;
+  }
+
+
+.avatar_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .avatar {
+    position: relative;
+  }
+  
+  .avatar_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .avatar_input {
+    display: none;
+  }
+  
+  .avatar_placeholder {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .plus_svg {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .avatar_text {
+    margin-top: 5px;
+  }
+  .edit_icon{
+   position: absolute;
+   right: 15px;
+   top: 15px;
+  }
+
+
+  .avatarForm_btn.lightMode1{
+    background-color: #B7AA8C;
+    color: white;
+  }
+  
+  .avatarForm_btn.darkMode1{
+    background-color: #B7AA8C;
+    color: white;
+  }
+  
+  /* Hover стили */
+  .avatarForm_btn.lightMode:hover {
+      color: white;
+      background-color: #B7AA8C;
+  }
+  
+  .avatarForm_btn.darkMode:hover {
+      color: white;
+      background-color: #B7AA8C;
+  }
+  
+  .avatarForm_btn.lightMode:active {
+    color: white;
+    background-color: #D3C5A7;
+  }
+  
+  .avatarForm_btn.darkMode {
+    color: white;
+    background-color: #232323;
+  }
+  .avatarForm_btn.lightMode {
+    color: black;
+    background-color: white;
+  }
+  
+  .avatarForm_btn.darkMode:active {
+    color: white;
+    background-color: #D3C5A7;
+  }
+
+  .error {
+    border: 1px solid #FF0000;
+  }
+  
+  .error_message {
+    color: #FF0000;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }
+  .avatar_container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .loader {
+
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite; /* Анимация вращения */
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

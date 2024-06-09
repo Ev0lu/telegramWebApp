@@ -1,0 +1,31 @@
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+
+  background-color: white;
+  color: black;
+  cursor: pointer;
+
+}
+
+@viewport {
+  zoom: 1.0; /* Устанавливаем начальное значение масштабирования */
+  min-zoom: 1.0; /* Минимальное значение масштабирования */
+  max-zoom: 1.0; /* Максимальное значение масштабирования */
+}

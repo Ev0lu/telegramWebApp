@@ -1,0 +1,26 @@
+.payment{
+  height: 87%;
+  }
+.notification{
+    display: flex;
+    width: 319px;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+.payment_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 40px;
+ 
+  }
+  
+.payment_text{
+    color: black;
+    font-size: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
