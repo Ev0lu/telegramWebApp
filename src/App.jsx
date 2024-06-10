@@ -38,7 +38,7 @@ import EditWorkerProfile from './EditWorkerProfile/EditWorkerProfile';
 
 //Auth imports
 import Authorization from './Authorization/Authorization'
-import AuthorizationMailConfirm from './Authorization/AuthorizationMailConfirm/AuthCon';
+import AuthorizationMailConfirm from './Authorization/AuthorizationMailConfirm/AuthorizationMailConfirm';
 import AuthorizationMailForm from './Authorization/AuthorizationMailForm/AuthorizationMailForm'
 import AuthorizationResetPassword from './Authorization/AuthorizationResetPassword/AuthorizationResetPassword'
 
